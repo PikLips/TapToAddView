@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>All Samples</key>
+	<array>
+		<dict>
+			<key>Message</key>
+			<string>UIAutomation testing has begun</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:18:53Z</date>
+			<key>Type</key>
+			<integer>4</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>This is the element log:</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:18:53Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>1) UIATarget [name:(null) value:(null) NSRect: {{2.7520829e-39, 2.0667855e-36}, {-1.9984865, 1.7892661e-37}}]</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:18:53Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>2) UIAApplication [name:TapToAddView value:(null) NSRect: {{0, 20}, {320, 460}}]</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:18:53Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>3) UIAWindow [name:(null) value:(null) NSRect: {{0, 0}, {320, 480}}]</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:18:53Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>4) UIAElement [name:MainView value:(null) NSRect: {{0, 20}, {320, 460}}]</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:18:53Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>4) UIAElement [name:SubView2 value:(null) NSRect: {{103, 166}, {12, 131}}]</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:18:53Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>That was the element log.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:18:53Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>*** initiate grep ***.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:18:53Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>1) UIATarget [name:(null) value:(null) NSRect: {{2.7520829e-39, 2.0667855e-36}, {0, 1.4012985e-45}}]</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:18:53Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element has 1 sub-elements, and 0 activity indicators,  is NOT visible,  enabled, and valid.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:18:58Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element null has a [object UIATarget] : null as an ancestor.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:18:58Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>2) UIAApplication [name:TapToAddView value:(null) NSRect: {{0, 20}, {320, 460}}]</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:18:58Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element has 1 sub-elements, and 0 activity indicators,  is visible,  enabled, and valid.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:19:03Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element TapToAddView has a [object UIATarget] : null as an ancestor.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:19:03Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element TapToAddView has a [object UIAApplication] : TapToAddView as an ancestor.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:19:03Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>3) UIAWindow [name:(null) value:(null) NSRect: {{0, 0}, {320, 480}}]</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:19:03Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element has 2 sub-elements, and 0 activity indicators,  is visible,  enabled, and valid.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:19:09Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element null has a [object UIATarget] : null as an ancestor.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:19:09Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element null has a [object UIAApplication] : TapToAddView as an ancestor.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:19:09Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element null has a [object UIAWindow] : null as an ancestor.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:19:09Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>4) UIAElement [name:MainView value:(null) NSRect: {{0, 20}, {320, 460}}]</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:19:09Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element has 0 sub-elements, and 0 activity indicators,  is visible,  enabled, and valid.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:19:24Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element MainView has a [object UIATarget] : null as an ancestor.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:19:24Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element MainView has a [object UIAApplication] : TapToAddView as an ancestor.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:19:24Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element MainView has a [object UIAWindow] : null as an ancestor.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:19:24Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element MainView has a [object UIAElement] : MainView as an ancestor.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:19:24Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>4) UIAElement [name:SubView2 value:(null) NSRect: {{103, 166}, {12, 131}}]</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:19:29Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element has 0 sub-elements, and 0 activity indicators,  is visible,  enabled, and valid.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:19:44Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element SubView2 has a [object UIATarget] : null as an ancestor.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:19:44Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element SubView2 has a [object UIAApplication] : TapToAddView as an ancestor.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:19:44Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element SubView2 has a [object UIAWindow] : null as an ancestor.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:19:44Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element SubView2 has a [object UIAElement] : SubView2 as an ancestor.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:19:44Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>*** grep complete ***.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:19:49Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Number of Views is 2</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:19:51Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Subview not added to index 0</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:19:51Z</date>
+			<key>Type</key>
+			<integer>7</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Number of Views is 3</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:19:52Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>elements().length increased from 2 to 3 elements.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:19:52Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Number of Views is 3</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:19:54Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Subview not added to index 2</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:19:54Z</date>
+			<key>Type</key>
+			<integer>7</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>*** initiate 2nd grep ***.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:19:54Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>1) UIATarget [name:(null) value:(null) NSRect: {{2.7520829e-39, 2.0667855e-36}, {-1.9984922, 1.7892661e-37}}]</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:19:54Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element has 1 sub-elements, and 0 activity indicators,  is NOT visible,  enabled, and valid.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:19:59Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element null has a [object UIATarget] : null as an ancestor.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:19:59Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>2) UIAApplication [name:TapToAddView value:(null) NSRect: {{0, 20}, {320, 460}}]</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:19:59Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element has 1 sub-elements, and 0 activity indicators,  is visible,  enabled, and valid.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:20:04Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element TapToAddView has a [object UIATarget] : null as an ancestor.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:20:04Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element TapToAddView has a [object UIAApplication] : TapToAddView as an ancestor.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:20:04Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>3) UIAWindow [name:(null) value:(null) NSRect: {{0, 0}, {320, 480}}]</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:20:04Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element has 4 sub-elements, and 0 activity indicators,  is visible,  enabled, and valid.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:20:09Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element null has a [object UIATarget] : null as an ancestor.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:20:09Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element null has a [object UIAApplication] : TapToAddView as an ancestor.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:20:09Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element null has a [object UIAWindow] : null as an ancestor.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:20:09Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>4) UIAElement [name:MainView value:(null) NSRect: {{0, 20}, {320, 460}}]</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:20:09Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element has 0 sub-elements, and 0 activity indicators,  is visible,  enabled, and valid.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:20:24Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element MainView has a [object UIATarget] : null as an ancestor.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:20:24Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element MainView has a [object UIAApplication] : TapToAddView as an ancestor.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:20:24Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element MainView has a [object UIAWindow] : null as an ancestor.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:20:24Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element MainView has a [object UIAElement] : MainView as an ancestor.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:20:24Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>4) UIAElement [name:SubView2 value:(null) NSRect: {{103, 166}, {12, 131}}]</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:20:29Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element has 0 sub-elements, and 0 activity indicators,  is visible,  enabled, and valid.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:20:44Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element SubView2 has a [object UIATarget] : null as an ancestor.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:20:44Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element SubView2 has a [object UIAApplication] : TapToAddView as an ancestor.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:20:44Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element SubView2 has a [object UIAWindow] : null as an ancestor.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:20:44Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element SubView2 has a [object UIAElement] : SubView2 as an ancestor.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:20:44Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>4) UIAElement [name:SubView4 value:(null) NSRect: {{66, 60}, {97, 106}}]</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:20:49Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element has 0 sub-elements, and 0 activity indicators,  is visible,  enabled, and valid.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:21:04Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element SubView4 has a [object UIATarget] : null as an ancestor.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:21:04Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element SubView4 has a [object UIAApplication] : TapToAddView as an ancestor.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:21:04Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element SubView4 has a [object UIAWindow] : null as an ancestor.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:21:04Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element SubView4 has a [object UIAElement] : SubView4 as an ancestor.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:21:04Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>4) UIAElement [name:SubView4 value:(null) NSRect: {{66, 60}, {97, 106}}]</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:21:09Z</date>
+			<key>Type</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element has 0 sub-elements, and 0 activity indicators,  is visible,  enabled, and valid.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:21:24Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element SubView4 has a [object UIATarget] : null as an ancestor.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:21:24Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element SubView4 has a [object UIAApplication] : TapToAddView as an ancestor.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:21:24Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element SubView4 has a [object UIAWindow] : null as an ancestor.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:21:24Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Element SubView4 has a [object UIAElement] : SubView4 as an ancestor.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:21:24Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>*** 2nd grep complete ***.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:21:29Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>UIAutomation testing has ended</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:21:29Z</date>
+			<key>Type</key>
+			<integer>5</integer>
+		</dict>
+		<dict>
+			<key>Message</key>
+			<string>Script completed.</string>
+			<key>Timestamp</key>
+			<date>2011-03-23T22:21:29Z</date>
+			<key>Type</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+</dict>
+</plist>

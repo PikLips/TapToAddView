@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C2E40B51331260C006D20CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C2E40B41331260C006D20CA /* UIKit.framework */; };
+		4C2E40B71331260C006D20CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C2E40B61331260C006D20CA /* Foundation.framework */; };
+		4C2E40B91331260C006D20CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C2E40B81331260C006D20CA /* CoreGraphics.framework */; };
+		4C2E40BF1331260C006D20CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C2E40BD1331260C006D20CA /* InfoPlist.strings */; };
+		4C2E40C21331260C006D20CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2E40C11331260C006D20CA /* main.m */; };
+		4C2E40C51331260C006D20CA /* TapToAddViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2E40C41331260C006D20CA /* TapToAddViewAppDelegate.m */; };
+		4C2E40C81331260D006D20CA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C2E40C61331260D006D20CA /* MainWindow.xib */; };
+		4C2E40CB1331260D006D20CA /* TapToAddViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2E40CA1331260D006D20CA /* TapToAddViewViewController.m */; };
+		4C2E40CE1331260D006D20CA /* TapToAddViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C2E40CC1331260D006D20CA /* TapToAddViewViewController.xib */; };
+		4C2E40D51331260D006D20CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C2E40B41331260C006D20CA /* UIKit.framework */; };
+		4C2E40D61331260D006D20CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C2E40B61331260C006D20CA /* Foundation.framework */; };
+		4C2E40D71331260D006D20CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C2E40B81331260C006D20CA /* CoreGraphics.framework */; };
+		4C2E40DF1331260D006D20CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C2E40DD1331260D006D20CA /* InfoPlist.strings */; };
+		4C2E40E21331260D006D20CA /* TapToAddViewTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 4C2E40E11331260D006D20CA /* TapToAddViewTests.h */; };
+		4C2E40E41331260D006D20CA /* TapToAddViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2E40E31331260D006D20CA /* TapToAddViewTests.m */; };
+		4C2E40EF13312652006D20CA /* TTAView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C2E40EE13312652006D20CA /* TTAView.m */; };
+		4C2E40F113313E53006D20CA /* TapToTestViewTests.js in Sources */ = {isa = PBXBuildFile; fileRef = 4C2E40F013313E53006D20CA /* TapToTestViewTests.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C2E40D81331260D006D20CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C2E40A71331260C006D20CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C2E40AF1331260C006D20CA;
+			remoteInfo = TapToAddView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C262AE813343E3E003C1D6B /* UIViewConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewConstants.h; sourceTree = "<group>"; };
+		4C2E40B01331260C006D20CA /* TapToAddView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapToAddView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C2E40B41331260C006D20CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4C2E40B61331260C006D20CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4C2E40B81331260C006D20CA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4C2E40BC1331260C006D20CA /* TapToAddView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TapToAddView-Info.plist"; sourceTree = "<group>"; };
+		4C2E40BE1331260C006D20CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C2E40C01331260C006D20CA /* TapToAddView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TapToAddView-Prefix.pch"; sourceTree = "<group>"; };
+		4C2E40C11331260C006D20CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C2E40C31331260C006D20CA /* TapToAddViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapToAddViewAppDelegate.h; sourceTree = "<group>"; };
+		4C2E40C41331260C006D20CA /* TapToAddViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapToAddViewAppDelegate.m; sourceTree = "<group>"; };
+		4C2E40C71331260D006D20CA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		4C2E40C91331260D006D20CA /* TapToAddViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapToAddViewViewController.h; sourceTree = "<group>"; };
+		4C2E40CA1331260D006D20CA /* TapToAddViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapToAddViewViewController.m; sourceTree = "<group>"; };
+		4C2E40CD1331260D006D20CA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TapToAddViewViewController.xib; sourceTree = "<group>"; };
+		4C2E40D41331260D006D20CA /* TapToAddViewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapToAddViewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C2E40DC1331260D006D20CA /* TapToAddViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TapToAddViewTests-Info.plist"; sourceTree = "<group>"; };
+		4C2E40DE1331260D006D20CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C2E40E01331260D006D20CA /* TapToAddViewTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TapToAddViewTests-Prefix.pch"; sourceTree = "<group>"; };
+		4C2E40E11331260D006D20CA /* TapToAddViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapToAddViewTests.h; sourceTree = "<group>"; };
+		4C2E40E31331260D006D20CA /* TapToAddViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapToAddViewTests.m; sourceTree = "<group>"; };
+		4C2E40ED13312652006D20CA /* TTAView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTAView.h; sourceTree = "<group>"; };
+		4C2E40EE13312652006D20CA /* TTAView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTAView.m; sourceTree = "<group>"; };
+		4C2E40F013313E53006D20CA /* TapToTestViewTests.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = TapToTestViewTests.js; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.javascript; };
+		4C8032FF1385C21D00BB1DBD /* license.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = license.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C2E40AD1331260C006D20CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2E40B51331260C006D20CA /* UIKit.framework in Frameworks */,
+				4C2E40B71331260C006D20CA /* Foundation.framework in Frameworks */,
+				4C2E40B91331260C006D20CA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C2E40D01331260D006D20CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2E40D51331260D006D20CA /* UIKit.framework in Frameworks */,
+				4C2E40D61331260D006D20CA /* Foundation.framework in Frameworks */,
+				4C2E40D71331260D006D20CA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C2E40A51331260C006D20CA = {
+			isa = PBXGroup;
+			children = (
+				4C2E40BA1331260C006D20CA /* TapToAddView */,
+				4C2E40DA1331260D006D20CA /* TapToAddViewTests */,
+				4C2E40B31331260C006D20CA /* Frameworks */,
+				4C2E40B11331260C006D20CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C2E40B11331260C006D20CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C2E40B01331260C006D20CA /* TapToAddView.app */,
+				4C2E40D41331260D006D20CA /* TapToAddViewTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C2E40B31331260C006D20CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C2E40B41331260C006D20CA /* UIKit.framework */,
+				4C2E40B61331260C006D20CA /* Foundation.framework */,
+				4C2E40B81331260C006D20CA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C2E40BA1331260C006D20CA /* TapToAddView */ = {
+			isa = PBXGroup;
+			children = (
+				4C2E40C31331260C006D20CA /* TapToAddViewAppDelegate.h */,
+				4C2E40C41331260C006D20CA /* TapToAddViewAppDelegate.m */,
+				4C2E40C61331260D006D20CA /* MainWindow.xib */,
+				4C2E40C91331260D006D20CA /* TapToAddViewViewController.h */,
+				4C8032FF1385C21D00BB1DBD /* license.txt */,
+				4C2E40CA1331260D006D20CA /* TapToAddViewViewController.m */,
+				4C2E40CC1331260D006D20CA /* TapToAddViewViewController.xib */,
+				4C2E40BB1331260C006D20CA /* Supporting Files */,
+				4C2E40ED13312652006D20CA /* TTAView.h */,
+				4C2E40EE13312652006D20CA /* TTAView.m */,
+			);
+			path = TapToAddView;
+			sourceTree = "<group>";
+		};
+		4C2E40BB1331260C006D20CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C2E40BC1331260C006D20CA /* TapToAddView-Info.plist */,
+				4C2E40BD1331260C006D20CA /* InfoPlist.strings */,
+				4C2E40C01331260C006D20CA /* TapToAddView-Prefix.pch */,
+				4C2E40C11331260C006D20CA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C2E40DA1331260D006D20CA /* TapToAddViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C262AE813343E3E003C1D6B /* UIViewConstants.h */,
+				4C2E40E11331260D006D20CA /* TapToAddViewTests.h */,
+				4C2E40E31331260D006D20CA /* TapToAddViewTests.m */,
+				4C2E40F013313E53006D20CA /* TapToTestViewTests.js */,
+				4C2E40DB1331260D006D20CA /* Supporting Files */,
+			);
+			path = TapToAddViewTests;
+			sourceTree = "<group>";
+		};
+		4C2E40DB1331260D006D20CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C2E40DC1331260D006D20CA /* TapToAddViewTests-Info.plist */,
+				4C2E40DD1331260D006D20CA /* InfoPlist.strings */,
+				4C2E40E01331260D006D20CA /* TapToAddViewTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C2E40AF1331260C006D20CA /* TapToAddView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C2E40E71331260D006D20CA /* Build configuration list for PBXNativeTarget "TapToAddView" */;
+			buildPhases = (
+				4C2E40AC1331260C006D20CA /* Sources */,
+				4C2E40AD1331260C006D20CA /* Frameworks */,
+				4C2E40AE1331260C006D20CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapToAddView;
+			productName = TapToAddView;
+			productReference = 4C2E40B01331260C006D20CA /* TapToAddView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C2E40D31331260D006D20CA /* TapToAddViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C2E40EA1331260D006D20CA /* Build configuration list for PBXNativeTarget "TapToAddViewTests" */;
+			buildPhases = (
+				4C2E40CF1331260D006D20CA /* Sources */,
+				4C2E40D01331260D006D20CA /* Frameworks */,
+				4C2E40D11331260D006D20CA /* Resources */,
+				4C2E40D21331260D006D20CA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C2E40D91331260D006D20CA /* PBXTargetDependency */,
+			);
+			name = TapToAddViewTests;
+			productName = TapToAddViewTests;
+			productReference = 4C2E40D41331260D006D20CA /* TapToAddViewTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C2E40A71331260C006D20CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "PikLips LLC";
+			};
+			buildConfigurationList = 4C2E40AA1331260C006D20CA /* Build configuration list for PBXProject "TapToAddView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C2E40A51331260C006D20CA;
+			productRefGroup = 4C2E40B11331260C006D20CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C2E40AF1331260C006D20CA /* TapToAddView */,
+				4C2E40D31331260D006D20CA /* TapToAddViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C2E40AE1331260C006D20CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2E40BF1331260C006D20CA /* InfoPlist.strings in Resources */,
+				4C2E40C81331260D006D20CA /* MainWindow.xib in Resources */,
+				4C2E40CE1331260D006D20CA /* TapToAddViewViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C2E40D11331260D006D20CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2E40DF1331260D006D20CA /* InfoPlist.strings in Resources */,
+				4C2E40E21331260D006D20CA /* TapToAddViewTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C2E40D21331260D006D20CA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C2E40AC1331260C006D20CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2E40C21331260C006D20CA /* main.m in Sources */,
+				4C2E40C51331260C006D20CA /* TapToAddViewAppDelegate.m in Sources */,
+				4C2E40CB1331260D006D20CA /* TapToAddViewViewController.m in Sources */,
+				4C2E40EF13312652006D20CA /* TTAView.m in Sources */,
+				4C2E40F113313E53006D20CA /* TapToTestViewTests.js in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C2E40CF1331260D006D20CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2E40E41331260D006D20CA /* TapToAddViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C2E40D91331260D006D20CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C2E40AF1331260C006D20CA /* TapToAddView */;
+			targetProxy = 4C2E40D81331260D006D20CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C2E40BD1331260C006D20CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C2E40BE1331260C006D20CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4C2E40C61331260D006D20CA /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C2E40C71331260D006D20CA /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		4C2E40CC1331260D006D20CA /* TapToAddViewViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C2E40CD1331260D006D20CA /* en */,
+			);
+			name = TapToAddViewViewController.xib;
+			sourceTree = "<group>";
+		};
+		4C2E40DD1331260D006D20CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C2E40DE1331260D006D20CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C2E40E51331260D006D20CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C2E40E61331260D006D20CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		4C2E40E81331260D006D20CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapToAddView/TapToAddView-Prefix.pch";
+				INFOPLIST_FILE = "TapToAddView/TapToAddView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4C2E40E91331260D006D20CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapToAddView/TapToAddView-Prefix.pch";
+				INFOPLIST_FILE = "TapToAddView/TapToAddView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4C2E40EB1331260D006D20CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TapToAddView.app/TapToAddView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapToAddViewTests/TapToAddViewTests-Prefix.pch";
+				INFOPLIST_FILE = "TapToAddViewTests/TapToAddViewTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4C2E40EC1331260D006D20CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TapToAddView.app/TapToAddView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TapToAddViewTests/TapToAddViewTests-Prefix.pch";
+				INFOPLIST_FILE = "TapToAddViewTests/TapToAddViewTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C2E40AA1331260C006D20CA /* Build configuration list for PBXProject "TapToAddView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C2E40E51331260D006D20CA /* Debug */,
+				4C2E40E61331260D006D20CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C2E40E71331260D006D20CA /* Build configuration list for PBXNativeTarget "TapToAddView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C2E40E81331260D006D20CA /* Debug */,
+				4C2E40E91331260D006D20CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C2E40EA1331260D006D20CA /* Build configuration list for PBXNativeTarget "TapToAddViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C2E40EB1331260D006D20CA /* Debug */,
+				4C2E40EC1331260D006D20CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C2E40A71331260C006D20CA /* Project object */;
+}
